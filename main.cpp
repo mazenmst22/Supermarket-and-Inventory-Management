@@ -556,7 +556,7 @@ private:
             case 3: restockProduct(); break;
             case 4: showInventory(); break;
             case 5: exportInventory(); break;
-            default: cout << "⚠️ Invalid choice.\n"; break;
+            default: cout << "Invalid choice.\n"; break;
         }
         ScreenManager::pauseForUser();
     }
